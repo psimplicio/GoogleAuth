@@ -3,7 +3,7 @@
 */
 function renderButton() {
     gapi.signin2.render('meu-botao', {
-        'scope': 'email profile https://www.googleapis.com/auth/plus.login', // solicitando acesso ao profile e ao e-mail do usuário
+        'scope': 'email profile https://www.googleapis.com/auth/plus.login', // solicitando acesso ao profile e ao E-mail do usuário
         'width': 250,
         'height': 50,
         'longtitle': true,
